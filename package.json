@@ -4,8 +4,9 @@
   "description": "basic recipe app",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha",
-    "start": "node src/index.js"
+    "test": "mocha --recursive",
+    "start": "node src/index.js",
+    "hello": "echo 'hello'"
   },
   "exports": {
     ".": "./src"

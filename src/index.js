@@ -1,15 +1,5 @@
-
-console.log("hello world");
+// This is the entry point for the program
 const lib = require("./adding_functions/adding");
+const recipeLib = require("./recipe/recipe");
 
-// function add(one, two) {
-//     return one + two
-// }
-
-console.log(lib.add(1, 2));
-
-// module.exports = {
-//     add
-// };
-
-// console.log(module);
+console.log("main entry point");
