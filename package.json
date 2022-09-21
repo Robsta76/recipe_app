@@ -1,0 +1,29 @@
+{
+  "name": "recipe_app",
+  "version": "1.0.0",
+  "description": "basic recipe app",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "start": "node src/index.js",
+    "hello": "echo 'hello'"
+  },
+  "exports": {
+    ".": "./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robsta76/recipe_app.git"
+  },
+  "author": "Rob and max",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robsta76/recipe_app/issues"
+  },
+  "homepage": "https://github.com/Robsta76/recipe_app#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "esm": "^3.2.25",
+    "mocha": "^10.0.0"
+  }
+}
